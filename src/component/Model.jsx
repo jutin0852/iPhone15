@@ -54,8 +54,8 @@ export default function Model() {
   }, [modelSize]);
 
   return (
-    <section className="px-10 py-18 flex justify-center ">
-      <div className=" w-5/6">
+    <section className="max-sm:px-5 px-10 py-18 flex justify-center ">
+      <div className="max-sm:w-full w-5/6">
         <h1
           id="look"
           className="mb-10 font-bold text-2xl md:text-6xl text-gray-500 translate-y-10 opacity-0  "

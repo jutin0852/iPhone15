@@ -20,13 +20,13 @@ export default function HowItWorks() {
     gsap.to("#howText", {
       scrollTrigger: {
         trigger: "#howText",
-        start: "20% bottom",
+        start: "-20% bottom",
         toggleActions: "restart reverse ,restart ,restart",
       },
       y: 0,
       opacity: 1,
       ease: "power2.inOut",
-      duration:2
+      duration: 2,
     });
 
     gsap.to("#frameVideo", {
@@ -41,8 +41,8 @@ export default function HowItWorks() {
     });
   }, []);
   return (
-    <section className="p-15 sm:py-30 px-20 sm:px-40">
-      <div className="flex justify-center py-20">
+    <section className="py-10 sm:py-30 px-5 sm:px-40">
+      <div className="flex justify-center py-10 sm:py-20">
         <div id="chip">
           <img src={chipImg} alt="frame" width={180} height={180} />
         </div>
@@ -82,22 +82,22 @@ export default function HowItWorks() {
       </div>
       <div
         id="howText"
-        className="text-[#656568]  font-semibold text-xl flex gap-15 max-sm:flex-wrap mt-20 max-sm:p-10 opacity-0 translate-y-20"
+        className="text-[#656568]  font-semibold text-xl flex gap-15 max-sm:flex-wrap mt-20  opacity-0 translate-y-20"
       >
-        <p className="w-[50%]">
+        <p className="md:w-[50%]">
           A17 pro is an entirely new class of iphone chip that delivers our
           <span className="text-white">
             {" "}
-            best grapic performance by far .{" "}
+            best grapic performance by far.
           </span>{" "}
           Mobile
           <span className="text-white">
             {" "}
             games will look and feel so immersive.
           </span>{" "}
-          'wit incredible detailed enviroments and character.
+          with incredible detailed enviroments and character.
         </p>
-        <div className=" w-[50%]">
+        <div className="md:w-[50%]">
           <p>New</p>
           <p className="text-white text-4xl">Pro-class GPU </p>
           <p> with 6 cores</p>

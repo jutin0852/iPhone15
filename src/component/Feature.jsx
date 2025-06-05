@@ -27,15 +27,15 @@ export default function Feature() {
     animateWithGsap("#exploreText", { y: 0, opacity: 1, ease: "power1" });
   }, []);
   return (
-    <section className="px-10 sm:px-14 py-15 bg-white/7">
+    <section className="px-5 sm:px-14 py-10 sm:py-15 bg-white/7">
       <div>
         <h2
           id="explore"
-          className="font-semibold opacity-0 my-20  translate-y-10 text-3xl sm:text-5xl text-[#656568]"
+          className="font-semibold opacity-0 sm:my-20 my-10  translate-y-10 text-3xl sm:text-5xl text-[#656568]"
         >
           Explore the full story
         </h2>
-        <div className="flex mt-40  justify-center items-center">
+        <div className="flex mt-15 sm:mt-40  justify-center items-center">
           <div>
             <h1 className="font-semibold text-5xl sm:text-6xl text-white self-start ">
               iPhone.
@@ -76,7 +76,7 @@ export default function Feature() {
             </div>
             <div
               id="exploreText"
-              className="text-[#656568] font-semibold text-xl flex gap-5 max-sm:flex-wrap mt-20 max-sm:p-10 opacity-0 translate-y-20"
+              className="text-[#656568] font-semibold text-xl flex gap-5 max-sm:flex-wrap mt-10 sm:mt-20 max-sm:p-10 opacity-0 translate-y-20"
             >
               <p>
                 iPhone 15 pro is using the same alloy that space crafts use for
