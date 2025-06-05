@@ -1,3 +1,4 @@
+import Feature from "./component/Feature";
 import Hero from "./component/Hero";
 import Highlights from "./component/Highlights";
 import Model from "./component/model";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Highlights />
       <Model />
+      <Feature />
     </main>
   );
 }
