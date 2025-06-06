@@ -21,12 +21,12 @@ export default function HowItWorks() {
       scrollTrigger: {
         trigger: "#howText",
         start: "-20% bottom",
-        toggleActions: "restart reverse ,restart ,restart",
+        toggleActions: "restart ",
       },
       y: 0,
       opacity: 1,
       ease: "power2.inOut",
-      duration: 2,
+      duration: 1,
     });
 
     gsap.to("#frameVideo", {

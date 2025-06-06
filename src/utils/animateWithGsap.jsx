@@ -8,8 +8,8 @@ export default function animateWithGsap(target, animationProps, scrollProps) {
     ...animationProps,
     scrollTrigger: {
       trigger: target,
-      toggleActions: "restart reverse restart reverse",
-      start: "top 85%",
+      toggleActions: "restart",
+      start: "top bottom",
       ...scrollProps,
     },
   });
